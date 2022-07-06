@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@700&family=Staatliches&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ====== Background page ======*/
+body{
+    background-color: #191816;
+}
+.imgbackground{
+    display: flex;
+    justify-content: end;
+}
+main{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width: 630px;
+}
+/* ====== Background page ======*/
+
+/* ====== Section Box ======*/
+section{
+    border-radius: 4px;
+    background-color: #24221F;
+    width: 572px;
+    height: 512px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #D4CCB6;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    color: #AFB6C2;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+/* ====== Section Box ======*/
+
+/* ====== Email/Pass ======*/
+
+.email{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-right: 14rem;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #AFB6C2;
+}
+
+.emailbox{
+    display: flex;
+    margin-right: -1rem;
+    justify-content: center;
+}
+
+.emailbox input{
+    border-radius: 4px;
+    padding-left: 23px;
+    padding-top: 5px;
+    height: 25px;
+    width: 335px;
+    background: url(images/mail.svg);
+    background-repeat: no-repeat;
+    color: aliceblue;
+    
+}
+.emailbox input:focus{
+    background: url(images/mail-focus.svg);
+    background-repeat: no-repeat;
+    outline-color: #FFC632;
+}
+.password{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-right: 14rem;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #AFB6C2;
+}
+.passwordbox{
+    display: flex;
+    justify-content: center;
+    margin-right: -1rem;
+}
+.passwordbox input{
+    border-radius: 4px;
+    padding-left: 23px;
+    padding-top: 5px;
+    height: 25px;
+    width: 335px;
+    background: url(images/lock.svg);
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+.passwordbox input:focus{
+    background: url(images/lock-focus.svg);
+    background-repeat: no-repeat;
+    outline-color: #FFC632;
+}
+.passwordbox img{
+    position: absolute;
+    margin-left: 18rem;
+}
+/* ====== Email/Pass ======*/
+
+/* ====== Finish page ===== */
+.remember{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 7.5rem;
+    gap: 10px;
+    color: #868686;
+    font-size: 16px;
+}
+.remember input{
+    border: 2px #ff1212;
+    background-color: transparent; 
+    width: 20px;
+    height: 20px;
+    display: inline-block 
+}
+.remember :nth-child(3){
+    margin-left: 100px;
+    color: #FFC632;
+    font-size: 14px;
+}
+.enterButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.enterButton input[type=submit]{
+    background-color:#FFC632;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #473404;
+}
+.enterButton input:hover{
+    background-color: #ac8011;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #FFC632;
+}
+/* ====== Finish page ===== */
