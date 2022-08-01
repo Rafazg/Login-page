@@ -18,11 +18,12 @@ body{
 main{
     position: absolute;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     height: 900px;
-    width: 630px;
+    width: 600px;
 }
+
 /* ====== Background page ======*/
 
 /* ====== Section Box ======*/
@@ -31,6 +32,7 @@ section{
     background-color: #24221F;
     width: 572px;
     height: 512px;
+    margin-right: 20px;
 }
 .title{
     display: flex;
@@ -76,13 +78,13 @@ section{
     padding-top: 5px;
     height: 25px;
     width: 335px;
-    background: url(images/mail.svg);
+    background: url(../images/mail.svg);
     background-repeat: no-repeat;
     color: aliceblue;
     
 }
 .emailbox input:focus{
-    background: url(images/mail-focus.svg);
+    background: url(../images/mail-focus.svg);
     background-repeat: no-repeat;
     outline-color: #FFC632;
 }
@@ -106,12 +108,12 @@ section{
     padding-top: 5px;
     height: 25px;
     width: 335px;
-    background: url(images/lock.svg);
+    background: url(../images/lock.svg);
     background-repeat: no-repeat;
     color: aliceblue;
 }
 .passwordbox input:focus{
-    background: url(images/lock-focus.svg);
+    background: url(../images/lock-focus.svg);
     background-repeat: no-repeat;
     outline-color: #FFC632;
 }

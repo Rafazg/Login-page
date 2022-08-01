@@ -1,0 +1,5 @@
+@media (max-width: 520px){
+    body .imgbackground img{
+        width: 0px;
+    }
+}
